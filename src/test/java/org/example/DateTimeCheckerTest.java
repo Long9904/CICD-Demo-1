@@ -9,7 +9,7 @@ class DateTimeCheckerTest {
 
     @Test
     public void testValidDate_15_6_2023() {
-        assertFalse(dateTimeChecker.isValidDate(15, 6, 2023));
+        assertTrue(dateTimeChecker.isValidDate(15, 6, 2023));
     }
 
     @Test
